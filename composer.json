@@ -18,7 +18,8 @@
 		"installer-paths": {
 			"public_html/{$name}": [
 				"silverstripe/cms",
-				"silverstripe/framework"
+				"silverstripe/framework",
+				"silverstripe/siteconfig"
 			],
 			"public_html/themes/{$name}": [
 				"silverstripe-themes/simple"
