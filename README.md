@@ -1,6 +1,7 @@
 # Silverstripe Framework Boilerplate
 - Rob Anderson, robb-j
 - A Boilerplate Repo to quickly setup a new project using [Silverstripe](http://silverstripe.org).
+- Setups up the Silverstripe files within a public_html folder for use on the live server
 You can find Silverstripe's great [documentation here](http://docs.silverstripe.org/en/developer_guides/). Requires:
 
 ##### Requirements
@@ -14,11 +15,12 @@ You can find Silverstripe's great [documentation here](http://docs.silverstripe.
 ### Localhost Setup
 1. Create the folder for your project
 2. `cd` into your directory
-3. `git remote add boilerplate git@github.com:robb-j/ss-framework-boiler.git`
+3. `git remote add boilerplate git@github.com:robb-j/ss-boilerplate.git`
 4. `git pull boilerplate master`
 5. `composer update`
-6. Visit `localhost/SITENAME/public_html/dev/build`
-7. Remove the boilerplate `git rm boilerplate`
+6. `sudo chmod -R 777 *` Then enter your password
+7. Visit `localhost/SITENAME/public_html/dev/build`
+8. Remove the boilerplate `git remote rm boilerplate`
 
 
 ### Live Server Setup
