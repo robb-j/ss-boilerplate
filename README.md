@@ -21,6 +21,7 @@ You can find Silverstripe's great [documentation here](http://docs.silverstripe.
 6. `sudo chmod -R 777 *` Then enter your password
 7. Visit `localhost/SITENAME/public_html/dev/build`
 8. Remove the boilerplate `git remote rm boilerplate`
+9. Name your theme (rename the folder) and ?flush before you set it in the cms
 
 
 ### Live Server Setup
@@ -38,6 +39,7 @@ You can find Silverstripe's great [documentation here](http://docs.silverstripe.
 1. SSH to your server
 2. Install Composer: `curl -s http://getcomposer.org/installer | php-5.3`
 3. Run Commands: `php-5.3 composer.phar <COMMAND>`
+4. You can add a compass client (i.e. Codekit) to the theme directory for automated scss
 
 ### Generating Public & Private Keys
 1. SSH to your server
