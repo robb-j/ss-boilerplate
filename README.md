@@ -1,4 +1,7 @@
 # Silverstripe Framework Boilerplate
+
+> **Archived** – This project has been archived and is generally unsupported
+
 - Rob Anderson, robb-j
 - A Boilerplate Repo to quickly setup a new project using [Silverstripe](http://silverstripe.org).
 - Setups up the Silverstripe files within a public_html folder for use on the live server
